@@ -6,12 +6,12 @@ import Undead from './Undead';
 import Zombie from './Zombie';
 
 function exampleCreateHeroes() {
-  const bowman = new Bowman('Изя', 'Bowman');
-  const swordsman = new Swordsman('Изя', 'Swordsman');
-  const magician = new Magician('Изя', 'Magician');
-  const daemon = new Daemon('Изя', 'Daemon');
-  const undead = new Undead('Изя', 'Undead');
-  const zombie = new Zombie('Изя', 'Zombie');
+  const bowman = new Bowman('Изя');
+  const swordsman = new Swordsman('Боря');
+  const magician = new Magician('Петро');
+  const daemon = new Daemon('Адольф');
+  const undead = new Undead('Хрюша');
+  const zombie = new Zombie('Жора');
   return {
     bowman, swordsman, magician, daemon, undead, zombie,
   };
